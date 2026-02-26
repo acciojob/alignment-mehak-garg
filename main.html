@@ -4,6 +4,19 @@
 
 <head>
 	<title>HTML Assignment 3</title>
+	  <style>
+        table.middle {
+            border: 1px solid black;
+            border-spacing: 1px;
+            padding: 1px;
+        }
+		    .green {
+            background-color: green;
+        }
+		  .blue {
+            background-color: blue;
+        }
+</style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
@@ -11,17 +24,17 @@
 	<!-- the entire body must be written by student -->
 	<h1><center>HTML Assignment #3</center></h1>
 	<table class="middle" id="table-1"> 
-	<tr id="t11">
+	<tr>
+		<td id="t11">left</td>
+		<td id="t12">center</td>
+		<td class="right" id="t13">right</td>
+	</tr>
+	<tr class="center">
 		<td>left</td>
 		<td>center</td>
 		<td class="right">right</td>
 	</tr>
-	<tr class="center" id="t12">
-		<td>left</td>
-		<td>center</td>
-		<td class="right">right</td>
-	</tr>
-	<tr id="t13">
+	<tr>
 		<td>left</td>
 		<td>center</td>
 		<td class="right">right</td>
@@ -29,8 +42,8 @@
 	
 	</table>
 	<table class="middle" id="table-2">
-		<tr id="t21">
-			<td colspan="6"></td>
+		<tr>
+			<td  id="t21" colspan="6"></td>
 		</tr>
 		<tr>
 			<td rowspan="4"></td>
@@ -69,13 +82,13 @@
 </tr>
 	</table>
 	<table class="middle" id="table-3">
-		<tr style="background-color:green">
+		<tr class="green">
 			<td></td>
 		</tr>
 		<tr>
 			<td id="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
 		</tr>
-<tr style="background-color:blue">
+<tr class="blue">
 	<td></td>
 </tr>
 	</table>
